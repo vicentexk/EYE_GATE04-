@@ -1,0 +1,44 @@
+.background {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  overflow: hidden;
+  background: linear-gradient(165deg, #0D1F24 0%, #0F6879 48%, #0A181C 100%);
+}
+
+.glow {
+  position: absolute;
+  filter: blur(90px);
+  opacity: 0.28;
+  border-radius: 50%;
+  animation: glowFloat 12s ease-in-out infinite;
+}
+
+.glow-one {
+  width: 380px;
+  height: 380px;
+  background: #FD9C00;
+  top: -80px;
+  left: -60px;
+}
+
+.glow-two {
+  width: 420px;
+  height: 420px;
+  background: #FA6623;
+  bottom: -120px;
+  right: -80px;
+  animation-delay: -5s;
+  opacity: 0.2;
+}
+
+.grid {
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(211, 199, 113, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(211, 199, 113, 0.05) 1px, transparent 1px);
+  background-size: 52px 52px;
+  opacity: 0.4;
+  pointer-events: none;
+}

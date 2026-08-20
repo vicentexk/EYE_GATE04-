@@ -1,0 +1,71 @@
+button {
+  cursor: pointer;
+  border: none;
+  border-radius: 12px;
+  padding: 12px 18px;
+  font-weight: 600;
+  font-family: inherit;
+  transition: transform 0.15s ease, box-shadow 0.2s ease, background 0.2s ease, opacity 0.15s;
+}
+
+.login-btn {
+  width: 100%;
+  background: linear-gradient(135deg, #FD9C00, #FA6623);
+  color: #1A1208;
+  font-size: 15px;
+}
+
+.login-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 22px rgba(253, 156, 0, 0.35);
+}
+
+.logout-btn {
+  width: 100%;
+  background: transparent;
+  color: var(--text);
+  border: 1px solid var(--border);
+}
+
+.logout-btn:hover {
+  background: rgba(253, 156, 0, 0.12);
+  border-color: var(--primary);
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+.cta-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 16px 28px;
+  background: linear-gradient(135deg, #FD9C00, #FA6623);
+  color: #1A1208;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 8px 20px rgba(253, 156, 0, 0.3);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.cta-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 28px rgba(253, 156, 0, 0.4);
+}
+
+.cta-btn-secondary {
+  background: transparent;
+  color: var(--olive);
+  border: 2px solid var(--olive);
+  box-shadow: none;
+}
+
+.cta-btn-secondary:hover {
+  background: rgba(211, 199, 113, 0.12);
+  box-shadow: none;
+}

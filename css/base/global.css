@@ -1,0 +1,63 @@
+/* =========================
+   ICONS
+========================= */
+
+i[data-lucide]{
+
+  width:18px;
+
+  height:18px;
+
+  stroke-width:2.2;
+
+}
+
+/* =========================
+   SCROLLBAR
+========================= */
+
+::-webkit-scrollbar{
+
+  width:10px;
+
+}
+
+::-webkit-scrollbar-track{
+
+  background:#0b1020;
+
+}
+
+::-webkit-scrollbar-thumb{
+
+  background:
+    linear-gradient(
+      180deg,
+      var(--primary),
+      var(--primary2)
+    );
+
+  border-radius:20px;
+
+}
+
+section{
+
+  margin-bottom:28px;
+
+}
+
+
+
+h1,h2,h3{
+
+  letter-spacing:-0.5px;
+
+}
+
+p,
+span{
+
+  line-height:1.5;
+
+}

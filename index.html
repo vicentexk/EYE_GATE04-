@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>EYE GATE</title>
+  <link rel="stylesheet" href="./css/main.css">
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+
+<div class="background">
+  <div class="glow glow-one"></div>
+  <div class="glow glow-two"></div>
+  <div class="grid"></div>
+</div>
+
+<div id="app"></div>
+
+<div id="toast" class="toast"></div>
+
+<!-- Loading global -->
+<div class="loading-screen" id="loadingScreen">
+  <div class="loading-box">
+    <div class="loader"></div>
+    <h2>EYE GATE</h2>
+    <p id="loadingText">Carregando...</p>
+  </div>
+</div>
+
+<!-- LIBS -->
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script defer src="./face-api.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+<!-- CORE -->
+<script src="./js/core/supabase.js"></script>
+<script src="./js/face/state.js"></script>
+
+<!-- FACE -->
+<script src="./js/face/face.js"></script>
+<script src="./js/face/camera.js"></script>
+<script src="./js/face/cadastro.js"></script>
+<script src="./js/face/matcher.js"></script>
+<script src="./js/face/recognition.js"></script>
+
+<script src="./js/core/pages.js"></script>
+
+<!-- UI -->
+<script src="./js/ui/loading.js"></script>
+<script src="./js/ui/navigation.js"></script>
+<script src="./js/ui/toast.js"></script>
+
+<!-- AUTH -->
+<script src="./js/auth/login.js"></script>
+<script src="./js/auth/register.js"></script>
+<script src="./js/auth/session.js"></script>
+
+<!-- DASHBOARD -->
+<script src="./js/dashboard/charts.js"></script>
+<script src="./js/dashboard/logs.js"></script>
+<script src="./js/dashboard/reports.js"></script>
+<script src="./js/dashboard/stats.js"></script>
+
+<!-- ADMIN -->
+<script src="./js/admin/admin.js"></script>
+<script src="./js/admin/alunos.js"></script>
+<script src="./js/admin/logs.js"></script>
+<script src="./js/admin/users.js"></script>
+
+<!-- STARTUP -->
+<script src="./js/startup/startup.js"></script>
+
+<!-- MAIN -->
+<script src="./js/main.js"></script>
+
+<div id="startupScreen">
+  <div class="startup-content">
+    <div class="startup-logo">👁</div>
+    <h1>EYE GATE</h1>
+    <p id="startupText">Inicializando sistema...</p>
+    <div class="startup-bar">
+      <div id="startupProgress"></div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

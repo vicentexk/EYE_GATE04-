@@ -1,0 +1,25 @@
+/* =========================================================
+   Paleta fita cassete (nostalgia real)
+   #FD9C00  #FA6623  #0F6879  #D3C771
+========================================================= */
+
+:root {
+  --bg: #0D1F24;
+  --bg-soft: #122A30;
+
+  --card: #16343B;
+  --card-hover: #1A3D45;
+
+  --text: #F7F3E8;
+  --soft: #B8C9A8;
+
+  --primary: #FD9C00;
+  --primary2: #FA6623;
+  --teal: #0F6879;
+  --olive: #D3C771;
+
+  --danger: #E85D4C;
+  --border: rgba(211, 199, 113, 0.22);
+  --radius: 14px;
+  --shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+}
